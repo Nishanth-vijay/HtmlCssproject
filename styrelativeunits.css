@@ -73,7 +73,6 @@ position: relative;
 
 .lemon>img{
     width: 4vw;
-    /* display: none; */
     /* transition: all 2s ease; */
     animation-name: lemonanim;
     /* animation-name: kal1; */
