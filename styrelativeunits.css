@@ -542,12 +542,13 @@ animation-duration: 2s;
 
 @keyframes freshanim2 {
     from{
-transform: translatex(33vw);
-/* opacity: 0; */
+transform: translatey(30vw);
+opacity: 0;
     }
     to{
         
         transform: translatex(0);
+opacity: 1;
         /* rotate: 25deg; */
     }
 }
@@ -1224,7 +1225,7 @@ transform: translatex(90.5vw);
 .gMaps{
     width: 50%;
     border: 2px solid red;
-        animation-name: freshanim1;
+        animation-name: freshanim6;
    
 animation-iteration-count: 1;
 transition: all 2s ease;
@@ -1234,7 +1235,7 @@ animation-duration: 2s;
 }
 
 
-@keyframes freshanim2 {
+@keyframes freshanim6 {
     from{
 transform: translatey(-90.5vw);
 /* opacity: 0; */
