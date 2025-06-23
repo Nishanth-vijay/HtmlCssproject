@@ -64,8 +64,8 @@ position: relative;
 .lemon{
     position: absolute;
     /* width: 1px; */
-    top: 36.25vh;
-    left: 50.7vw;
+    top: 36vh;
+    left: 51.3vw;
     z-index: 20;
 
 }
