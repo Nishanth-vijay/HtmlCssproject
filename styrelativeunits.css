@@ -46,12 +46,12 @@ position: relative;
 
 .nav1{
     /* right: 0vw; */
-    font-size: 5vw;
+    font-size: 4vw;
     padding-left: 1vw;
 }
 .nav2{
     font-size: 4vw;
-    right:15vw;
+    right:2vw;
     top: 3vh ;
 }
 .nav3{
@@ -82,7 +82,11 @@ position: relative;
     /* display: none; */
     /* transition: all 2s ease; */
     animation-name: lemonanim;
-   
+    /* animation-name: kal1; */
+    /* animation-duration: 2s;
+    animation-iteration-count: 5; */
+
+    /* animation-name: dotanimation; */
 animation-iteration-count: 1;
 transition: all 2s ease;
 transform: rotate(25deg);
@@ -512,7 +516,7 @@ margin: 0; */
 }
 
  /* .fal>h2 :hover ~ */
-   .fall1 {
+  .fal:hover  .fall1 {
  
     animation-name: freshanim;
    
@@ -536,7 +540,7 @@ transform: translatex(33vw);
 
 
 
- .fall2 {
+.fal:hover .fall2 {
  
     animation-name: freshanim2;
    
@@ -564,7 +568,7 @@ opacity: 1;
 
 
 
- .fall3 {
+.fal:hover .fall3 {
     /* width: 10vw; */
  
     animation-name: freshanim1;
@@ -622,8 +626,9 @@ transform: translatex(-33vw);
     box-shadow: .9vw .9vw .9vw rgba(0, 0, 0, 0.5);  
     /* border: 0.12vw solid whitesmoke; */
      /* overflow-wrap: normal; */
+}
 
-
+.wel:hover .ima{
  
     animation-name: welimganim;
    
@@ -652,7 +657,7 @@ transform: translatex(-50vw);
 
 
 
-.em{
+ .em{
     position: relative;
     /* text-align: center; */
     /* border: 0.12vw solid green; */
@@ -662,7 +667,10 @@ transform: translatex(-50vw);
     
     padding-left: 9vw;
     font-family: Copperplate, Papyrus, fantasy;
- 
+ }
+ .wel:hover  .em {
+
+
     animation-name: welconanim;
    
 animation-iteration-count: 1;
@@ -670,6 +678,12 @@ transition: all 2s ease;
 /* transform: rotate(25deg); */
 animation-duration: 2s;
 
+}
+.wel:hover  .p{
+    display: block;
+
+    transition-delay: 2s;
+    /* margin-right: 50vw; */
 }
 
 
@@ -692,6 +706,8 @@ transform: translatex(50vw);
 
 
 .p{
+    display: none;
+    transition: all 2s ease;
     /* margin-left: 7vw; */
     /* margin-top: 10vh; */
 }
@@ -765,7 +781,8 @@ transform: translatex(50vw);
 .ourteam>div{
  /* border: 0.12vw solid rgb(10, 10, 15);   */
  width: 24.3vw;}
- .ourteam>.x{ 
+
+.ourteam:hover .xy{ 
 
  
  
@@ -777,7 +794,7 @@ transition: all 2s ease;
 animation-duration: .2s;
 
 }
-.ourteam>.y{ 
+.ourteam:hover .yy{ 
 
  
  animation-delay: .2s;
@@ -788,7 +805,8 @@ transition: all 2s ease;
 /* transform: rotate(25deg); */
 animation-duration: .2s;
 
-}.ourteam>.z{ 
+}
+.ourteam:hover .zy{ 
 
  
  animation-delay: .4s;
@@ -800,7 +818,8 @@ transition: all 2s ease;
 /* transform: rotate(25deg); */
 animation-duration: .2s;
 
-}.ourteam>.a{ 
+}
+.ourteam:hover .ay{ 
 
  
  animation-delay: .6s;
@@ -888,7 +907,8 @@ margin-right: 5vw;
     /* left: 2.5vw; */
     /* width: 95%;*/    
     /* height: 150%;  */
-    /* border: 0.2vw solid blue;    */
+    /* border: 0.2vw solid blue;    */}
+    .mena:hover>.menu{
 
        animation-name: menuanim;
    
@@ -937,9 +957,11 @@ opacity: 0;
     /* height: 80%; */
    
     /* border: 0.2vw solid rgb(28, 145, 10);  */
-    padding: 2vw;
+    padding: 2vw;}
+    
+   .mena:hover .menu-m, .menuimg:hover>.menu-m{
 
-
+/* not working */
     animation-name: menuanim;
    
 animation-iteration-count: 1;
@@ -1163,9 +1185,9 @@ form{
     margin-top: 0vw;
     padding: 5vw;
      /* border: .12vw solid rgb(1, 1, 14);  */
-     height: 60%;
+     height: 60%;   }
+form:hover .booking-back form{
      animation-name: menuanim;
-   
 animation-iteration-count: 1;
 transition: all 2s ease;
 /* transform: rotate(25deg); */
@@ -1188,15 +1210,28 @@ margin: 1vw;
     text-decoration: none;
     border-bottom: .2vw dotted bisque;
 
-
+}
+.book:hover input{
     animation-name: menuanim;
    animation-delay: 1s;
 animation-iteration-count: 1;
 transition: all 2s ease;
 /* transform: rotate(25deg); */
-animation-duration: 1s;
+animation-duration: 2s;
 
 }
+
+
+/* .booking :hover input{
+    animation-name: menuanim;
+   animation-delay: 1s;
+animation-iteration-count: 1;
+transition: all 2s ease;
+transform: rotate(25deg);
+animation-duration: 1s;
+
+} */
+
 
 .booking h2 , .booking p{
     text-align: center;
@@ -1228,7 +1263,7 @@ animation-duration: 1s;
 
 
 }
-.contact-details{
+.contact:hover .contact-details{
     width: 50%;
      /* border: 4vw solid rgb(1, 1, 14);  */
    animation-name: freshanim5;
@@ -1254,7 +1289,7 @@ transform: translatex(90.5vw);
 
 
 
-.gMaps{
+.contact:hover .gMaps{
     width: 50%;
     border: 2px solid red;
         animation-name: freshanim6;
