@@ -7,6 +7,8 @@
 /* i{
     color: blue);
 } */
+
+
 a{
     /* color: white; */
     font-size: 1vw;
@@ -15,22 +17,25 @@ a{
 }
 
 
+/* @media screen and (width > 750px)  */
+
 
 .image > img{
    top: 0vw;
-    width: 98.5vw;
+    width: 100vw;
     /* border: 1vw solid blue; */
-    height:100vh;
+    height:50vw  ;
 }
 .navi{
     position: relative;
     font-family: Copperplate, Papyrus, fantasy;
+    height: 45vw;
 }
 .nav{
     display: flex;
     position: absolute  ;
-    top: 2vh;
-    gap:3vw ;
+    top: 1vw;
+    gap:2vw ;
     /* border: 0.1vw solid red; */
 }
 /* 
@@ -41,12 +46,13 @@ position: relative;
 
 .nav1{
     /* right: 0vw; */
-    font-size: 5vw;
+    font-size: 4vw;
     padding-left: 1vw;
 }
 .nav2{
-    right:15vw;
-    top: 6.5vh ;
+    font-size: 4vw;
+    right:1vw;
+    top: 3vh ;
 }
 .nav3{
     right: 0.5vw;
@@ -64,8 +70,8 @@ position: relative;
 .lemon{
     position: absolute;
     /* width: 1px; */
-    top: 36.25vh;
-    left: 50.7vw;
+    top: 18.6vw;
+    left: 51.3vw;
     z-index: 20;
 
 }
@@ -73,6 +79,7 @@ position: relative;
 
 .lemon>img{
     width: 4vw;
+    /* display: none; */
     /* transition: all 2s ease; */
     animation-name: lemonanim;
     /* animation-name: kal1; */
@@ -117,7 +124,7 @@ transform: translateY(-10vh);
 .H{
     position: absolute;
     /* border: .1vw solid rgb(72, 17, 17);  */
-    top:  35vh;
+    top:  18vw;
     left: 38vw;
     padding-bottom: 0px;
     text-align: center;
@@ -218,7 +225,7 @@ transform: translatey(10vw);
 }
 
 a:hover{
-    font-size: 2vw;
+    font-size: 4vw;
     background-color: rgba(250, 235, 215, 0.262);
 }
 
@@ -227,19 +234,19 @@ a:hover{
     border: 0.12px solid rgb(236, 237, 235);
     border-radius: 20px;
     z-index: 10000;
-    height: 9vh;
+    height: 5vw;
     width: 2.5vw;
     left: 50vw;
-    bottom: -1vw;
+    /* bottom: 21vw; */
 
 }
 .dot{
     position: absolute;
     /* border: 0.1px solid white; */
     border-radius: 50px;
-    height: 2.8vh;
-    bottom: 45px;
-    left: 3px;
+    height: 2vw;
+    bottom: 3vw;
+    left: .5vw;
     width: 1.5vw;
     /* left: 1vw; */
     background-color: rgb(255, 255, 255);
@@ -251,10 +258,10 @@ animation-duration: 1s;
 }
 @keyframes dotanimation {
     from{
-transform: translateY(5px);
+transform: translateY(0.00000000000000001vw);
     }
     to{
-        transform: translateY(44px);
+        transform: translateY(3vw);
     }
 }
 
@@ -268,7 +275,7 @@ transform: translateY(5px);
     
    align-items: center;
 /* padding-left: 2vw; */
-    height: 55vh;
+    height: 45vh;
     z-index: 20;
     top: 20vh;
     justify-content: center;
@@ -349,6 +356,9 @@ font-size: 2.5vw;
     color: rgb(127, 184, 184);
     font-size: 3vw;
 }
+.top1{
+    display: none;
+}
 
 
 /* .navii{
@@ -371,6 +381,7 @@ color: black;
     position: sticky  ;
     position: relative;
     z-index: 5;
+    margin-top: 5vw;
     font-family: Copperplate, Papyrus, fantasy;
      background-color: white    ;
     top: 0vw;
@@ -381,7 +392,7 @@ color: black;
 
 .navii>.nav1{
     /* right: 0vw; */
-    flex-basis: 51vw;
+    flex-basis: 45vw;
     font-size: 5vw;
     /* padding-left: 20vw; */
     /* border: .19vw solid red; */
@@ -403,6 +414,7 @@ color: black;
     /* right: 30vw; */
     /* top: 30vw; */
     /* border: 0.12vw solid red; */
+    padding-top: 2vw;
      flex-basis: 20vw;
      display: flex;
      gap: 5vw;
@@ -461,6 +473,7 @@ height:90vh ;
 .whatdiv{
     display: flex;
     gap: 9vw;
+    height:58vw;
 }
 .fall{
     position: relative;
@@ -503,7 +516,7 @@ margin: 0; */
 }
 
  /* .fal>h2 :hover ~ */
-   .fall1 {
+  .fal:hover  .fall1 {
  
     animation-name: freshanim;
    
@@ -527,7 +540,7 @@ transform: translatex(33vw);
 
 
 
- .fall2 {
+.fal:hover .fall2 {
  
     animation-name: freshanim2;
    
@@ -555,7 +568,7 @@ opacity: 1;
 
 
 
- .fall3 {
+.fal:hover .fall3 {
     /* width: 10vw; */
  
     animation-name: freshanim1;
@@ -582,14 +595,26 @@ transform: translatex(-33vw);
 
 
 
+.navii1{
+    display: none   ;
+}
+
+
+
+
+
 
  .wel{
     display: flex;
     gap: 1vw;
     padding-top: 0;
+    
     /* border: .15vw solid rgb(150, 43, 43); */
      /* overflow: hidden; */
 
+}
+.wel1{
+    margin-top: 2vw;
 }
 .wel>div{
     /* flex-basis: 20vw; */
@@ -601,8 +626,9 @@ transform: translatex(-33vw);
     box-shadow: .9vw .9vw .9vw rgba(0, 0, 0, 0.5);  
     /* border: 0.12vw solid whitesmoke; */
      /* overflow-wrap: normal; */
+}
 
-
+.wel:hover .ima{
  
     animation-name: welimganim;
    
@@ -631,7 +657,7 @@ transform: translatex(-50vw);
 
 
 
-.em{
+ .em{
     position: relative;
     /* text-align: center; */
     /* border: 0.12vw solid green; */
@@ -641,7 +667,10 @@ transform: translatex(-50vw);
     
     padding-left: 9vw;
     font-family: Copperplate, Papyrus, fantasy;
- 
+ }
+ .wel:hover  .em {
+
+
     animation-name: welconanim;
    
 animation-iteration-count: 1;
@@ -649,6 +678,12 @@ transition: all 2s ease;
 /* transform: rotate(25deg); */
 animation-duration: 2s;
 
+}
+.wel:hover  .p{
+    display: block;
+
+    transition-delay: 2s;
+    /* margin-right: 50vw; */
 }
 
 
@@ -671,6 +706,8 @@ transform: translatex(50vw);
 
 
 .p{
+    display: none;
+    transition: all 2s ease;
     /* margin-left: 7vw; */
     /* margin-top: 10vh; */
 }
@@ -744,7 +781,8 @@ transform: translatex(50vw);
 .ourteam>div{
  /* border: 0.12vw solid rgb(10, 10, 15);   */
  width: 24.3vw;}
- .ourteam>.x{ 
+
+.ourteam:hover .xy{ 
 
  
  
@@ -756,7 +794,7 @@ transition: all 2s ease;
 animation-duration: .2s;
 
 }
-.ourteam>.y{ 
+.ourteam:hover .yy{ 
 
  
  animation-delay: .2s;
@@ -767,7 +805,8 @@ transition: all 2s ease;
 /* transform: rotate(25deg); */
 animation-duration: .2s;
 
-}.ourteam>.z{ 
+}
+.ourteam:hover .zy{ 
 
  
  animation-delay: .4s;
@@ -779,7 +818,8 @@ transition: all 2s ease;
 /* transform: rotate(25deg); */
 animation-duration: .2s;
 
-}.ourteam>.a{ 
+}
+.ourteam:hover .ay{ 
 
  
  animation-delay: .6s;
@@ -849,14 +889,17 @@ h1{
 .menuimg>img{
     border-radius: 5vw;
     width: 100%;
-    height: 70%;
+    height: 58vw;
+    /* height: 5vw; */
     /* margin: vw; */
 }
 .menu{
-margin: 5vw;   
+/* margin: 5vw;    */
+margin-left: 5vw;
+margin-right: 5vw;
     position: absolute;
     background-color: azure;
-    top: 10vh;
+    top: 5vh;
     z-index: 5;
     font-size: 1.6vw;
     border-radius: 40px;
@@ -864,7 +907,8 @@ margin: 5vw;
     /* left: 2.5vw; */
     /* width: 95%;*/    
     /* height: 150%;  */
-    /* border: 0.2vw solid blue;    */
+    /* border: 0.2vw solid blue;    */}
+    .mena:hover>.menu{
 
        animation-name: menuanim;
    
@@ -913,9 +957,11 @@ opacity: 0;
     /* height: 80%; */
    
     /* border: 0.2vw solid rgb(28, 145, 10);  */
-    padding: 2vw;
+    padding: 2vw;}
+    
+   .mena:hover .menu-m, .menuimg:hover>.menu-m{
 
-
+/* not working */
     animation-name: menuanim;
    
 animation-iteration-count: 1;
@@ -932,6 +978,7 @@ animation-duration: 2s;
    /* padding: 5vw; */
      /* height: 90%; */
      /* text-align: left; */
+     padding-left: 1vw;
 
 }
 
@@ -945,7 +992,7 @@ animation-duration: 2s;
 
  .divp>h6{
     text-align: left;
-    padding-left: 15vw;
+    padding-left: 12vw;
     font-size: 2vw;
     color: rgb(9, 244, 244);
     /* padding-top: 10vw   ; */
@@ -993,18 +1040,19 @@ padding-left: 0vw;
       /* padding-left: 3vw; */
 }
 .fullmenu{
-padding: 2vw;
-padding-top: 1vw;
+/* padding: 2vw; */
+/* padding-bottom: 5vw; */
 background: rgba(240, 255, 255, 0.347);
-font-size: 2.5vw;
-    margin-left: 43vw;
-    margin-top: 1vw;
-    height: 2vw;
+font-size: 3vw;
+    margin-left: 32vw;
+    /* margin-top: 1vw; */
+    margin-bottom: 3vw;
+    height: 3vw;
     /* display: inline-block; */
     border-radius: 50px;
     text-align: center;
-    width: 8vw;
-      /* border: .15vw solid rgb(119, 119, 182);  */
+    width: 20vw;
+      border: .15vw solid rgb(119, 119, 182); 
 }
 
 .menu-customer{
@@ -1031,13 +1079,14 @@ font-size: 2.5vw;
 
 
 .customer-feedback{
-    height: 60vh;
+    /* height: 60vh; */
     display: flex;
-    /* border: 0.1222vw solid   rgb(147, 44, 123);  */
+    border: 0.1222vw solid   rgb(147, 44, 123); 
 }
 .customer-feedback p {
     text-align: center;
     padding-left: 5vw;
+    /* justify-items: center; */
     padding-right: 10vw;
     
 
@@ -1052,6 +1101,7 @@ font-size: 2.5vw;
 }
 
 .custline>label{
+    display: none;
     padding-left: 4vw;
     padding-top: 5.5vw;
     font-size: 5vw;
@@ -1066,15 +1116,18 @@ font-size: 2.5vw;
 }
 .custline img{
     /* flex-basis: 20vw; */
-    border-radius: 20vw;
+    border-radius: 40vw;
     height: 30vh;
     width: 20vw;
+    justify-self: center;
+    margin-left: 15vw;
 }
 
 .customer-feedback input{
     display: none;
 }
 .custline1>label{
+    display: none;
     /* padding-left: 5vw; */
     padding-top: 5.5vw;
     font-size: 5vw;
@@ -1095,6 +1148,7 @@ font-size: 2.5vw;
     border-radius: 20vw;
     height: 30vh;
     width: 20vw;
+    margin-left: 9vw;
 }
 
 
@@ -1128,12 +1182,12 @@ font-size: 2.5vw;
 }
 
 form{
-    margin-top: 5vw;
+    margin-top: 0vw;
     padding: 5vw;
      /* border: .12vw solid rgb(1, 1, 14);  */
-     height: 60%;
+     height: 60%;   }
+form:hover .booking-back form{
      animation-name: menuanim;
-   
 animation-iteration-count: 1;
 transition: all 2s ease;
 /* transform: rotate(25deg); */
@@ -1156,15 +1210,28 @@ margin: 1vw;
     text-decoration: none;
     border-bottom: .2vw dotted bisque;
 
-
+}
+.book:hover input{
     animation-name: menuanim;
    animation-delay: 1s;
 animation-iteration-count: 1;
 transition: all 2s ease;
 /* transform: rotate(25deg); */
-animation-duration: 1s;
+animation-duration: 2s;
 
 }
+
+
+/* .booking :hover input{
+    animation-name: menuanim;
+   animation-delay: 1s;
+animation-iteration-count: 1;
+transition: all 2s ease;
+transform: rotate(25deg);
+animation-duration: 1s;
+
+} */
+
 
 .booking h2 , .booking p{
     text-align: center;
@@ -1172,9 +1239,10 @@ animation-duration: 1s;
     font-size: 3vw;
 }
 .button{
-    padding-top: 1vw;
+    /* padding-top: 1vw; */
     padding-left: 1vw; ;
-    margin-top: 5vw;
+    margin-top: 3vw;
+    height: 19%;
     margin-left: 20vw;
 }
 
@@ -1195,7 +1263,7 @@ animation-duration: 1s;
 
 
 }
-.contact-details{
+.contact:hover .contact-details{
     width: 50%;
      /* border: 4vw solid rgb(1, 1, 14);  */
    animation-name: freshanim5;
@@ -1221,7 +1289,7 @@ transform: translatex(90.5vw);
 
 
 
-.gMaps{
+.contact:hover .gMaps{
     width: 50%;
     border: 2px solid red;
         animation-name: freshanim6;
@@ -1338,7 +1406,7 @@ font-size: 2vw;
     padding-top: 6vw;
     flex-basis: 28vw;
     width: 2vw;
-      border: 2vw solid rgb(1, 1, 14); 
+      /* border: 2vw solid rgb(1, 1, 14);  */
 }
 .end>.favicon>i{
     color: bisque;
@@ -1347,3 +1415,239 @@ font-size: 2vw;
     /* margin-top: 4vw; */
     /* padding: 3vw ; */
 }
+
+
+
+
+
+
+
+
+@media screen and (width < 700px) {
+
+    .wel1{
+        margin-top: 5vw;
+        
+   border: .82vw solid rgb(118, 16, 16); 
+    }
+    .top1{
+    position:sticky;    
+    top: 85vh;
+    padding-top: 0vw;
+    /* padding-bottom: 0vw; */
+    background-color: none;
+   padding-left: 93vw;
+   /* padding-top: 670vw; */
+    /* border: .15vw solid rgb(2, 2, 27); */
+    z-index: 1000;
+    /* font-size: 500vw; */
+}
+
+.menuback{
+    position: relative;
+    border-radius: 5vw;
+    /* height: 90%; */
+}
+
+.menuimg>img{
+    border-radius: 5vw;
+    width: 100%;
+    height: 87vw;
+}
+.menu{
+/* margin: 5vw;    */
+margin-left: 8vw;
+margin-right: 5vw;
+padding-top: 4vw;
+    position: absolute;
+    background-color: azure;
+    top: 4%;
+    z-index: 5;
+    font-size: 1.6vw;
+    border-radius: 40px;
+    text-align: center;
+}
+.menu-m{
+
+    display: block;
+    margin-left: 2vw;
+    padding: 8vw;
+
+}
+
+
+.fullmenu{
+/* padding: 2vw; */
+/* padding-bottom: 5vw; */
+background: rgba(240, 255, 255, 0.347);
+font-size: 3vw;
+    margin-left: 28vw;
+    /* margin-top: 1vw; */
+    margin-bottom: 3vw;
+    height: 4vw;
+    /* display: inline-block; */
+    border-radius: 50px;
+    text-align: center;
+    width: 20vw;
+      border: .15vw solid rgb(119, 119, 182); 
+}
+
+.menu-customer{
+    position: absolute;
+    width: 20vw;
+    height: 1%;
+    /* text-align: center; */
+    /* padding-top: 1vw; */
+    bottom: 1%;
+    padding: 2vw;
+    left: 35vw;
+   /* border: .82vw solid whitesmoke;  */
+   color:white;
+   /* padding: 2vw; */
+    border-radius: 100px;
+    box-shadow: 1vw 1vw 1vw rgba(237, 235, 235, 0.5); 
+
+
+}
+
+.navii1{
+    display: flex;
+    position: sticky  ;
+    position: relative;
+    z-index: 5;
+    margin-top: 1vw;
+    font-family: Copperplate, Papyrus, fantasy;
+     background-color: white    ;
+    top: 0vw;
+    /* bottom: 0vw; */
+    /* gap:1vw ; */
+    /* border: .19vw solid rgb(215, 7, 7); */
+}
+
+.navii1>.nav1{
+    /* right: 0vw; */
+    flex-basis: 51vw;
+    font-size: 5vw;
+    /* padding-left: 20vw; */
+    /* border: .19vw solid red; */
+    
+}
+.navii1>.nav2{
+    /* right:300vw; */
+    /* top: 30vw ; */
+    display: flex;
+     flex-basis: 30vw;
+    /* border: 0.12vw solid red; */
+    gap: 2vw;
+     align-items: center;
+}
+/* .navii>.nav2>div{
+ flex-basis: 100vw;
+} */
+.navii1>.nav3{
+    /* right: 30vw; */
+    /* top: 30vw; */
+    /* border: 0.12vw solid red; */
+     flex-basis: 20vw;
+     display: flex;
+     gap: 5vw;
+     align-items: center;
+    }
+
+
+.navii{
+    display: none;
+}
+.fal{
+    margin-top: 3vw;
+    /* border: 2px solid black; */
+}
+
+
+
+
+.nav2{
+    font-size: 4vw;
+    right:15vw;
+    top: 1.8vw ;
+    align-items: center;
+}
+.nav3{
+    right: 2.5vw;
+    top: 3.3vw;
+    color: rgb(43, 43, 104);
+    /* text-emphasis-color: white; */
+    /* background-color: rgba(255, 255, 255, 0.324); */
+}
+.fixednav{
+    top: 20vw;
+    height: 30vw;
+}
+.dot{
+    display: none;
+}
+.scroll{
+    display: none;
+}
+
+.item p{
+
+    height: 4vw;
+}
+
+
+.end>.namesub{
+    flex-basis: 50vw;
+
+}
+
+.end>.favicon{
+    padding-top: 6vw;
+    flex-basis: 32vw;
+    /* width: 2vw; */
+      /* border: 2vw solid rgb(1, 1, 14);  */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (width<1000px) {
+    .dot{
+    display: none;
+}
+.scroll{
+    display: none;
+}
+    
+}
+
+
+
+
+
+
+    
