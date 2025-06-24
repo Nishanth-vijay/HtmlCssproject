@@ -65,7 +65,7 @@ a{
 .nav2 {
       display: flex;
     
-    border: .1vw solid red;
+    /* border: .1vw solid red; */
     font-size: 4vw;
     width: 37vw;
      gap: 4vw;
@@ -82,7 +82,7 @@ a{
       z-index: 1000;
     color: rgb(43, 43, 104);
     
-    border: .1vw solid red;
+    /* border: .1vw solid red; */
     /* text-emphasis-color: white; */
     /* background-color: rgba(255, 255, 255, 0.324); */
 }
@@ -1321,7 +1321,7 @@ transform: translatex(90.5vw);
 
 .contact:hover .gMaps{
     width: 50%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
         animation-name: freshanim6;
    
 animation-iteration-count: 1;
@@ -1494,7 +1494,7 @@ label >i{
 }
 .checkbox  label{
     height: 5vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 #check:checked ~ .nav2 
@@ -1547,7 +1547,7 @@ label >i{
     .wel1{
         margin-top: 5vw;
         
-   border: .82vw solid rgb(118, 16, 16); 
+   /* border: .82vw solid rgb(118, 16, 16);  */
     }
     /* .nav2, .nav3{
         display: none;
