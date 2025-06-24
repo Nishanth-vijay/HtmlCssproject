@@ -67,10 +67,8 @@ a{
     
     border: .1vw solid red;
     font-size: 4vw;
-    width: 37vw;
-     gap: 4vw;
-    /* right:5vw;
-    top: 1vw ; */
+    right:2vw;
+    top: 3vh ;
 }
 .nav3{
     display: flex;
@@ -1821,5 +1819,7 @@ font-size: 3vw;
 
 
 
+
+    
 
     
