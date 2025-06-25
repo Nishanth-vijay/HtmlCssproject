@@ -36,7 +36,7 @@ a{
     display: flex;
     position: absolute  ;
     top: 1vw;
-    /* gap:2vw ; */
+    gap:2vw ;
     /* border: 0.1vw solid red; */
 }
 
@@ -59,15 +59,16 @@ a{
     /* right: 0vw; */
     font-size: 4vw;
     padding-left: 1vw;
-    flex-grow: 8;
-    width: 44vw;
+    width: 40vw;
 }
 .nav2 {
       display: flex;
+      
+    height: 5vw;
     
     /* border: .1vw solid red; */
     font-size: 4vw;
-    width: 37vw;
+    /* width: 37vw; */
      gap: 4vw;
     /* right:5vw;
     top: 1vw ; */
@@ -310,7 +311,7 @@ transform: translateY(0.00000000000000001vw);
     top: 15vw;
     justify-content: center;
     flex-direction: column;
-    background: rgba(177, 156, 39, 0);
+    /* background: rgba(177, 156, 39, 0); */
     /* background: rgb(220, 184, 4) ; */
 
     width: 5vw;
@@ -345,7 +346,7 @@ transform: translateY(0.00000000000000001vw);
     text-align: center;
     width : 12vw;
     padding: 0;
-    height: 7vh;
+    height: 3.5vw;
     margin-left: 100vw;
     font-size: 2vw;
  background:rgba(177, 156, 39, 0.734);
@@ -409,13 +410,13 @@ color: black;
 .navii{
     display: flex;
     position: sticky;
-    position: relative;
+    /* position: relative; */
     z-index: 500;
     margin-top: 5vw;
     font-family: Copperplate, Papyrus, fantasy;
      background-color: white    ;
-    top: 10px;
-    bottom: 0px;
+    top: 0vw;
+    /* bottom: 0px; */
     /* gap:1vw ; */
     /* border: .19vw solid rgb(215, 7, 7); */
 }
@@ -435,6 +436,8 @@ color: black;
      flex-basis: 30vw;
     /* border: 0.12vw solid red; */
     gap: 2vw;
+    margin-top: 1.6vw;
+    /* height: 5vw; */
      align-items: center;
 }
 /* .navii>.nav2>div{
@@ -503,7 +506,7 @@ height:90vh ;
 .whatdiv{
     display: flex;
     gap: 9vw;
-    height:58vw;
+    /* height:60vw; */
 }
 .fall{
     position: relative;
@@ -511,7 +514,7 @@ height:90vh ;
     /* border: 0.1vw solid red;  */
         /* display:inline-block ; */
     /* width: 30vw; */
-    height: 50vw;
+    height: 57vw;
     padding: 2vw   ;
     /* margin-top: 2vw; */
     margin-left: 3.5    vw;
@@ -803,14 +806,15 @@ transform: translatex(50vw);
     flex-wrap:nowrap;
    gap: 0.1vw;
     /* padding-left: 5vw; */
-    width: 98.5vw;
+    /* width: 98.5vw; */
     text-align: center ;
 }
 
 
 .ourteam>div{
  /* border: 0.12vw solid rgb(10, 10, 15);   */
- width: 24.3vw;}
+ /* width: 24.3vw; */
+}
 
 .ourteam:hover .xy{ 
 
@@ -898,8 +902,8 @@ h1{
 
 
 .ourteam img{
-    width: 18vw;
-    height: 60vh;
+    width: 30vw;
+    height: 50vW;
         /* border: 0.1vw solid white; */
     border-radius: 5vw;
     box-shadow: 1vw 1vw 1vw rgba(0, 0, 0, 0.5); 
@@ -1273,7 +1277,7 @@ animation-duration: 1s;
     padding-left: 1vw; ;
     margin-top: 3vw;
     height: 19%;
-    margin-left: 20vw;
+    margin-left: 15vw;
 }
 
 
@@ -1583,7 +1587,7 @@ margin-left: 8vw;
 margin-right: 5vw;
 padding-top: 4vw;
     position: absolute;
-    background-color: azure;
+    /* background-color: azure; */
     top: 4%;
     z-index: 5;
     font-size: 1.6vw;
@@ -1602,7 +1606,7 @@ padding-top: 4vw;
 .fullmenu{
 /* padding: 2vw; */
 /* padding-bottom: 5vw; */
-background: rgba(240, 255, 255, 0.347);
+/* background: rgba(240, 255, 255, 0.347); */
 font-size: 3vw;
     margin-left: 28vw;
     /* margin-top: 1vw; */
@@ -1709,11 +1713,11 @@ font-size: 3vw;
  .navii{
     display: flex;
     position: sticky;
-    position: relative;
+    /* position: relative; */
     z-index: 500;
     margin-top: 5vw;
     font-family: Copperplate, Papyrus, fantasy;
-     background-color: white    ;
+     /* background-color: white    ; */
     top: 0vw;
     /* bottom: 0vw; */
     /* gap:1vw ; */
@@ -1775,11 +1779,11 @@ font-size: 3vw;
 .hi1{
     display: flex;
     position: sticky;
-    position: relative;
+    /* position: relative; */
     z-index: 500;
     margin-top: 1vw;
     font-family: Copperplate, Papyrus, fantasy;
-     background-color: white    ;
+     /* background-color: white    ; */
     top: 0vw;
     /* bottom: 0vw; */
     /* gap:1vw ; */
@@ -1787,7 +1791,7 @@ font-size: 3vw;
 }
 
 .hi1>.nav1{
-    /* position: sticky; */
+    position: sticky;
     top: 0vw;
     /* right: 0vw; */
     /* flex-basis: 10vw; */
@@ -1812,11 +1816,33 @@ font-size: 3vw;
      display: flex;
     
     }
-
-
     
 }
 
+@media screen and (width<465px) {
+
+    form{
+    }
+    form  input {
+        height: 12%;
+        width: 80%;
+        margin-left: 5vw;
+    }
+    .booking{
+        margin-top:4vw ;
+        height: 140vw;
+        width: 70vw;
+    }
+    .booking-back{
+        height: 100vw;
+    }
+ 
+    .button{
+         margin-left: 5vw;
+    }
+
+
+}
 
 
 
