@@ -61,14 +61,10 @@ a{
     
     /* border: .1vw solid red; */
     font-size: 4vw;
-    /* width: 37vw; */
      gap: 4vw;
-    /* right:5vw;
-    top: 1vw ; */
 }
 .nav3{
     display: flex;
-    /* right: 2.5vw;
     top: 4vw; */
     width: 16vw;
     padding-top: 3vw;
@@ -86,7 +82,6 @@ a{
 
 
 .nav1 > a{
-    /* color: black    ; */
     font-size: 5vw;
 }
 
@@ -103,14 +98,7 @@ a{
 
 .lemon>img{
     width: 4vw;
-    /* display: none; */
-    /* transition: all 2s ease; */
     animation-name: lemonanim;
-    /* animation-name: kal1; */
-    /* animation-duration: 2s;
-    animation-iteration-count: 5; */
-
-    /* animation-name: dotanimation; */
 animation-iteration-count: 1;
 transition: all 2s ease;
 transform: rotate(25deg);
