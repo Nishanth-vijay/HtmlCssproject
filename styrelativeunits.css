@@ -2,11 +2,7 @@
     margin: 0vw;
     padding: 0vw;
     scroll-behavior: none;
-    /* background: rgba(245, 243, 243, 0.362); */
 }
-/* i{
-    color: blue);
-} */
 
 
 a{
@@ -22,7 +18,6 @@ a{
 .image > img{
    top: 0vw;
     width: 100%;
-    /* border: 1vw solid blue; */
     height:50vw  ;
 }
 .navi{
@@ -42,7 +37,6 @@ a{
 .checkbox label{
     display: none;
     font-size: 20px;
-    /* position: relative; */
     top: 3vw;
     right: 3vw;
     /* border: 1.1vw solid red; */
